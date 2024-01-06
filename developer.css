@@ -1,0 +1,51 @@
+
+nav{
+    display: flex;
+}
+.nam{
+font-family: Open serif;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+width: 30%;
+text-align: center;
+position: relative;
+top: -21px;
+}
+.text-pry{
+    color:#FD6E0A;
+}
+nav ul{
+width: 70%;
+text-align: center;
+}
+nav ul li{
+display: inline-block;
+list-style: none;
+
+}
+nav ul li a{
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 400;
+}
+nav ul li a:hover{
+    color: #FD6E0A;
+}
+.but{
+background-color: #FD6E0A;
+color: #fafafa;
+padding: 10px 30px;
+border-radius: 5px;
+border: none;
+font-size: 20px;
+}
+nav ul li .but:hover {
+    color: blueviolet;
+    background-color: cadetblue;
+}
